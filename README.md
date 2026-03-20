@@ -13,3 +13,6 @@ See Ex_MinMax for example
 ## https://sparkling-blini-5a6d4c.netlify.app - Interactive Applet Plot (Last updated Dec 4th) shows players' auction draft values against their WAR (Wins above Replacement)
 
 See Interactive_Plot for example
+
+## fantasyApp - Still a work in progress. Working on creating a website that can make preparing for an auction fantasy football draft easier. 
+
