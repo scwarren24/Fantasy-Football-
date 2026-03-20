@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.left-panel {
+    border-right: 2px solid #ddd;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.right-panel {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#selectedList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#selectedList li {
+    padding: 8px;
+    margin: 4px 0;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+}
+#selectedList li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
